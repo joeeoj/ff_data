@@ -27,8 +27,17 @@ if __name__ == '__main__':
     league = League(league_id=LEAGUE_ID, year=YEAR, espn_s2=ESPN_S2, swid=SWID)
     player_lookup = {k: v for k,v in league.player_map.items() if isinstance(k, int)}
 
-    rosters = []
+    rosters, schedules = [], []
     for team in league.teams:  # always the current roster
+        for week, opponent in enumerate(team.schedule, start=1):
+            schedules.append({
+                'week': week,
+                'team_abbrev': team.team_abbrev,
+                'team_name': team.team_name,
+                'opponent_abbrev': opponent.team_abbrev,
+                'opponent_name': opponent.team_name,
+            })
+
         for player in team.roster:
             rosters.append({
                 'team_abbrev': team.team_abbrev,
@@ -41,6 +50,9 @@ if __name__ == '__main__':
                 'projected_total_points': player.projected_total_points,
                 'total_points': player.total_points,
             })
+
+    with open(DATA_DIR / 'schedules.json', 'wt') as f:
+        json.dump(schedules, f, indent=2)
 
     with open(DATA_DIR / 'rosters.json', 'wt') as f:
         json.dump(rosters, f, indent=2)

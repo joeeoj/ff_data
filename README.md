@@ -4,9 +4,10 @@ Run with `run.sh` to download and parse data
 
 ## TODO
 
-- [ ] download current rosters
-- [ ] download schedules
-- [ ] add seed data (nfl team schedules, handcuffs, notable injuries)
+- [x] download current rosters
+- [x] download schedules
+- [x] add nfl team schedules
+- [ ] add handcuffs mapping
 
 ## analysis ideas
 

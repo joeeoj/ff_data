@@ -38,6 +38,9 @@ if __name__ == '__main__':
     teams = load_json(DATA_DIR / 'teams.json')
     insert_data('teams', teams, conn, cursor)
 
+    schedules = load_json(DATA_DIR / 'schedules.json')
+    insert_data('schedules', schedules, conn, cursor)
+
     rosters = load_json(DATA_DIR / 'rosters.json')
     insert_data('rosters', rosters, conn, cursor)
 

@@ -30,6 +30,15 @@ CREATE TABLE IF NOT EXISTS bye_weeks (
     bye_week INTEGER
 );
 
+CREATE TABLE IF NOT EXISTS schedules (
+    id INTEGER PRIMARY KEY,
+    week INTEGER,
+    team_abbrev VARCHAR(4),
+    team_name VARCHAR(100),
+    opponent_abbrev VARCHAR(4),
+    opponent_name VARCHAR(100)
+);
+
 CREATE TABLE IF NOT EXISTS rosters (
     id INTEGER PRIMARY KEY,
     team_abbrev VARCHAR(4),

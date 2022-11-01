@@ -123,6 +123,9 @@ if __name__ == '__main__':
     # same can use the first week
     teams = parse_teams(data['1']['teams'], manager_lookup)
 
+    with open(DATA_DIR / 'teams.json', 'wt') as f:
+        json.dump(teams, f, indent=2)
+
     team_lookup = {}
     for t in teams:
         team_lookup[t['team_id']] = {

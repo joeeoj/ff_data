@@ -20,6 +20,10 @@ case $1 in
     python3 load.py
     ;;
 
+  copydb)
+    cp football.db ./reports/football.db
+    ;;
+
   runall)
     python3 parse.py
 
@@ -29,6 +33,8 @@ case $1 in
     sqlite3 football.db < schema.sql
 
     python3 load.py
+
+    cp football.db ./reports/football.db
     ;;
 
   *)

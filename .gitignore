@@ -8,9 +8,8 @@ config.py
 console.py
 original.py
 
-data/data.json
-data/transactions.json
-data/scores.json
+data/*.json
+!data/player_lookup.json
 
 football.db
 

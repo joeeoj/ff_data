@@ -27,6 +27,24 @@ if __name__ == '__main__':
     league = League(league_id=LEAGUE_ID, year=YEAR, espn_s2=ESPN_S2, swid=SWID)
     player_lookup = {k: v for k,v in league.player_map.items() if isinstance(k, int)}
 
+    rosters = []
+    for team in league.teams:  # always the current roster
+        for player in team.roster:
+            rosters.append({
+                'team_abbrev': team.team_abbrev,
+                'team_name': team.team_name,
+                'player_name': player.name,
+                'position': player.position,
+                'acquisition_type': player.acquisitionType,
+                'pro_team': player.proTeam,
+                'injured': player.injured,
+                'projected_total_points': player.projected_total_points,
+                'total_points': player.total_points,
+            })
+
+    with open(DATA_DIR / 'rosters.json', 'wt') as f:
+        json.dump(rosters, f, indent=2)
+
     data = {}  # data saved by week, mainly for txns
     for week in range(1, league.current_week + 1):
         data[week] = download_data(week)

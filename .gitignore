@@ -9,3 +9,9 @@ console.py
 original.py
 
 data/data.json
+data/transactions.json
+data/scores.json
+
+football.db
+
+reports/

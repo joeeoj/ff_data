@@ -130,7 +130,7 @@ if __name__ == '__main__':
             'team_abbrev': t['team_abbrev']
         }
 
-    transactions = parse_transactions(data, weeks, team_lookup, manager_lookup)
+    transactions = sorted(parse_transactions(data, weeks, team_lookup, manager_lookup), key=lambda d: d['proposed_date'])
 
     with open(DATA_DIR / 'transactions.json', 'wt') as f:
         json.dump(transactions, f, indent=2)

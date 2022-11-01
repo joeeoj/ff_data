@@ -90,3 +90,13 @@ CREATE TABLE IF NOT EXISTS transactions (
 CREATE INDEX IF NOT EXISTS team_abbrev_idx ON transactions(team_abbrev);
 CREATE INDEX IF NOT EXISTS team_name_idx ON transactions(team_name);
 CREATE INDEX IF NOT EXISTS proposed_date_idx ON transactions(proposed_date);
+
+CREATE VIEW IF NOT EXISTS most_recent_successful_transactions AS
+SELECT *
+FROM transactions
+WHERE
+    move_type != 'LINEUP'
+    AND status NOT IN ('CANCELED', 'PENDING')
+ORDER BY proposed_date DESC
+LIMIT 10
+;

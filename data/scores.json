@@ -1,0 +1,338 @@
+[
+  {
+    "week": 1,
+    "home_team": "Jimmy Lake Fan Club",
+    "home_score": 100.02,
+    "away_team": "Elite starts  with Eli",
+    "away_score": 143.9
+  },
+  {
+    "week": 1,
+    "home_team": "Scooty Lewis and the News",
+    "home_score": 90.12,
+    "away_team": "Ceedee's Nuts!",
+    "away_score": 126.42
+  },
+  {
+    "week": 1,
+    "home_team": "Fully  Maccinated",
+    "home_score": 89.86,
+    "away_team": "Big D\u012fckson Energy",
+    "away_score": 109.2
+  },
+  {
+    "week": 1,
+    "home_team": "Rippin' Swigs",
+    "home_score": 119.26,
+    "away_team": "Austin  Skol!",
+    "away_score": 95.18
+  },
+  {
+    "week": 1,
+    "home_team": "Kupp My Balls",
+    "home_score": 76.6,
+    "away_team": "Raiders Are Good",
+    "away_score": 110.0
+  },
+  {
+    "week": 1,
+    "home_team": "Herb Your Enthusiasm",
+    "home_score": 124.66,
+    "away_team": "Swift Be Cooking",
+    "away_score": 145.5
+  },
+  {
+    "week": 2,
+    "home_team": "Elite starts  with Eli",
+    "home_score": 84.3,
+    "away_team": "Ceedee's Nuts!",
+    "away_score": 85.38
+  },
+  {
+    "week": 2,
+    "home_team": "Big D\u012fckson Energy",
+    "home_score": 89.36,
+    "away_team": "Jimmy Lake Fan Club",
+    "away_score": 146.72
+  },
+  {
+    "week": 2,
+    "home_team": "Austin  Skol!",
+    "home_score": 128.5,
+    "away_team": "Scooty Lewis and the News",
+    "away_score": 129.02
+  },
+  {
+    "week": 2,
+    "home_team": "Raiders Are Good",
+    "home_score": 109.46,
+    "away_team": "Fully  Maccinated",
+    "away_score": 129.58
+  },
+  {
+    "week": 2,
+    "home_team": "Swift Be Cooking",
+    "home_score": 159.38,
+    "away_team": "Rippin' Swigs",
+    "away_score": 98.54
+  },
+  {
+    "week": 2,
+    "home_team": "Herb Your Enthusiasm",
+    "home_score": 169.56,
+    "away_team": "Kupp My Balls",
+    "away_score": 91.0
+  },
+  {
+    "week": 3,
+    "home_team": "Big D\u012fckson Energy",
+    "home_score": 103.1,
+    "away_team": "Elite starts  with Eli",
+    "away_score": 78.68
+  },
+  {
+    "week": 3,
+    "home_team": "Ceedee's Nuts!",
+    "home_score": 98.06,
+    "away_team": "Austin  Skol!",
+    "away_score": 123.82
+  },
+  {
+    "week": 3,
+    "home_team": "Jimmy Lake Fan Club",
+    "home_score": 115.7,
+    "away_team": "Raiders Are Good",
+    "away_score": 101.6
+  },
+  {
+    "week": 3,
+    "home_team": "Scooty Lewis and the News",
+    "home_score": 157.52,
+    "away_team": "Swift Be Cooking",
+    "away_score": 82.08
+  },
+  {
+    "week": 3,
+    "home_team": "Fully  Maccinated",
+    "home_score": 104.1,
+    "away_team": "Herb Your Enthusiasm",
+    "away_score": 123.68
+  },
+  {
+    "week": 3,
+    "home_team": "Rippin' Swigs",
+    "home_score": 85.44,
+    "away_team": "Kupp My Balls",
+    "away_score": 123.38
+  },
+  {
+    "week": 4,
+    "home_team": "Elite starts  with Eli",
+    "home_score": 151.16,
+    "away_team": "Austin  Skol!",
+    "away_score": 79.72
+  },
+  {
+    "week": 4,
+    "home_team": "Raiders Are Good",
+    "home_score": 85.04,
+    "away_team": "Big D\u012fckson Energy",
+    "away_score": 151.68
+  },
+  {
+    "week": 4,
+    "home_team": "Swift Be Cooking",
+    "home_score": 128.42,
+    "away_team": "Ceedee's Nuts!",
+    "away_score": 140.78
+  },
+  {
+    "week": 4,
+    "home_team": "Herb Your Enthusiasm",
+    "home_score": 122.5,
+    "away_team": "Jimmy Lake Fan Club",
+    "away_score": 110.26
+  },
+  {
+    "week": 4,
+    "home_team": "Kupp My Balls",
+    "home_score": 82.66,
+    "away_team": "Scooty Lewis and the News",
+    "away_score": 105.76
+  },
+  {
+    "week": 4,
+    "home_team": "Rippin' Swigs",
+    "home_score": 97.8,
+    "away_team": "Fully  Maccinated",
+    "away_score": 142.12
+  },
+  {
+    "week": 5,
+    "home_team": "Raiders Are Good",
+    "home_score": 120.48,
+    "away_team": "Elite starts  with Eli",
+    "away_score": 90.38
+  },
+  {
+    "week": 5,
+    "home_team": "Austin  Skol!",
+    "home_score": 108.74,
+    "away_team": "Swift Be Cooking",
+    "away_score": 50.66
+  },
+  {
+    "week": 5,
+    "home_team": "Big D\u012fckson Energy",
+    "home_score": 159.6,
+    "away_team": "Herb Your Enthusiasm",
+    "away_score": 139.82
+  },
+  {
+    "week": 5,
+    "home_team": "Ceedee's Nuts!",
+    "home_score": 100.9,
+    "away_team": "Kupp My Balls",
+    "away_score": 106.94
+  },
+  {
+    "week": 5,
+    "home_team": "Jimmy Lake Fan Club",
+    "home_score": 146.46,
+    "away_team": "Rippin' Swigs",
+    "away_score": 109.32
+  },
+  {
+    "week": 5,
+    "home_team": "Scooty Lewis and the News",
+    "home_score": 85.36,
+    "away_team": "Fully  Maccinated",
+    "away_score": 162.26
+  },
+  {
+    "week": 6,
+    "home_team": "Elite starts  with Eli",
+    "home_score": 94.22,
+    "away_team": "Swift Be Cooking",
+    "away_score": 70.0
+  },
+  {
+    "week": 6,
+    "home_team": "Herb Your Enthusiasm",
+    "home_score": 87.82,
+    "away_team": "Raiders Are Good",
+    "away_score": 79.24
+  },
+  {
+    "week": 6,
+    "home_team": "Kupp My Balls",
+    "home_score": 89.9,
+    "away_team": "Austin  Skol!",
+    "away_score": 101.92
+  },
+  {
+    "week": 6,
+    "home_team": "Rippin' Swigs",
+    "home_score": 82.38,
+    "away_team": "Big D\u012fckson Energy",
+    "away_score": 139.5
+  },
+  {
+    "week": 6,
+    "home_team": "Fully  Maccinated",
+    "home_score": 80.36,
+    "away_team": "Ceedee's Nuts!",
+    "away_score": 123.58
+  },
+  {
+    "week": 6,
+    "home_team": "Scooty Lewis and the News",
+    "home_score": 102.9,
+    "away_team": "Jimmy Lake Fan Club",
+    "away_score": 110.2
+  },
+  {
+    "week": 7,
+    "home_team": "Herb Your Enthusiasm",
+    "home_score": 124.42,
+    "away_team": "Elite starts  with Eli",
+    "away_score": 130.52
+  },
+  {
+    "week": 7,
+    "home_team": "Swift Be Cooking",
+    "home_score": 79.48,
+    "away_team": "Kupp My Balls",
+    "away_score": 80.9
+  },
+  {
+    "week": 7,
+    "home_team": "Raiders Are Good",
+    "home_score": 97.66,
+    "away_team": "Rippin' Swigs",
+    "away_score": 77.4
+  },
+  {
+    "week": 7,
+    "home_team": "Austin  Skol!",
+    "home_score": 81.44,
+    "away_team": "Fully  Maccinated",
+    "away_score": 91.52
+  },
+  {
+    "week": 7,
+    "home_team": "Big D\u012fckson Energy",
+    "home_score": 159.04,
+    "away_team": "Scooty Lewis and the News",
+    "away_score": 119.9
+  },
+  {
+    "week": 7,
+    "home_team": "Ceedee's Nuts!",
+    "home_score": 109.36,
+    "away_team": "Jimmy Lake Fan Club",
+    "away_score": 111.84
+  },
+  {
+    "week": 8,
+    "home_team": "Elite starts  with Eli",
+    "home_score": 117.98,
+    "away_team": "Kupp My Balls",
+    "away_score": 132.56
+  },
+  {
+    "week": 8,
+    "home_team": "Rippin' Swigs",
+    "home_score": 159.44,
+    "away_team": "Herb Your Enthusiasm",
+    "away_score": 154.68
+  },
+  {
+    "week": 8,
+    "home_team": "Fully  Maccinated",
+    "home_score": 82.32,
+    "away_team": "Swift Be Cooking",
+    "away_score": 121.68
+  },
+  {
+    "week": 8,
+    "home_team": "Scooty Lewis and the News",
+    "home_score": 118.92,
+    "away_team": "Raiders Are Good",
+    "away_score": 76.38
+  },
+  {
+    "week": 8,
+    "home_team": "Jimmy Lake Fan Club",
+    "home_score": 111.88,
+    "away_team": "Austin  Skol!",
+    "away_score": 102.54
+  },
+  {
+    "week": 8,
+    "home_team": "Ceedee's Nuts!",
+    "home_score": 166.44,
+    "away_team": "Big D\u012fckson Energy",
+    "away_score": 146.88
+  }
+]

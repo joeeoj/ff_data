@@ -2,6 +2,8 @@
 
 __pycache__/
 
+.venv/
+
 notes.txt
 
 config.py
@@ -10,6 +12,7 @@ original.py
 
 data/*.json
 !data/player_lookup.json
+!data/players.json
 
 football.db
 

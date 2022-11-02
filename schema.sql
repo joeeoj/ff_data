@@ -39,6 +39,12 @@ CREATE TABLE IF NOT EXISTS schedules (
     opponent_name VARCHAR(100)
 );
 
+CREATE TABLE IF NOT EXISTS start_of_weeks (
+    id INTEGER PRIMARY KEY,
+    week INTEGER,
+    start_of_week DATE
+);
+
 CREATE TABLE IF NOT EXISTS rosters (
     id INTEGER PRIMARY KEY,
     team_abbrev VARCHAR(4),
@@ -62,6 +68,14 @@ CREATE TABLE IF NOT EXISTS scores (
     home_score FLOAT,
     away_team VARCHAR(100),
     away_score FLOAT
+);
+
+CREATE TABLE IF NOT EXISTS players (
+    id INTEGER PRIMARY KEY,
+    player_id INTEGER,
+    player_name VARCHAR(50),
+    position VARCHAR(4),
+    pro_team VARCHAR(3)
 );
 
 CREATE TABLE IF NOT EXISTS transactions (

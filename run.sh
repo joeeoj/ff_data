@@ -5,6 +5,10 @@ case $1 in
     python3 download.py
     ;;
 
+  download_players)
+    python3 download_player_data.py
+    ;;
+
   parse)
     python3 parse.py
     ;;
@@ -38,6 +42,6 @@ case $1 in
     ;;
 
   *)
-    echo 'options: download, parse, createdb, loaddb, or runall (except download)'
+    echo 'options: download, download_players, or runall (except downloads)'
     ;;
 esac

@@ -1,10 +1,15 @@
 """Separate from the download file because it takes a few minutes (though not too slow futures)"""
-import json
 import concurrent.futures
+import json
+from typing import Optional
 
 from espn_api.football import League
 
 from config import LEAGUE_ID, YEAR, ESPN_S2, SWID, DATA_DIR
+
+
+def cast_none(s: str) -> Optional[str]:
+    return None if s is None or s.lower() == 'none' else s
 
 
 def get_player_info(player_name: str, player_id: int) -> dict:
@@ -15,7 +20,7 @@ def get_player_info(player_name: str, player_id: int) -> dict:
             "player_id": player_id,
             "player_name": player_name,
             "position": p.position,
-            "pro_team": p.proTeam,
+            "pro_team": cast_none(p.proTeam),
         }
     return None
 
